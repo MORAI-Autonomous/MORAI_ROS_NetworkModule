@@ -11,12 +11,11 @@ Install packages which basically need
 
 ```
 $ git clone https://github.com/MORAI-Autonomous/MORAI_ROS_NetworkModule.git
-$ cd ~/catkin_ws/src && catkin_init_workspace
 $ cd MORAI_ROS_NetworkModule
 $ git submodule update --init --recursive
-$ sudo chmod -R a+x ~/catkin_ws/src/
-$ find -name 'requirements.txt' | xargs -L 1 sudo pip install -U -r
-$ rosdep install --from-paths . --ignore-src -r -y
+$ sudo chmod -R a+x catkin_ws/src/
+$ cd catkin_ws/src && catkin_init_workspace 
+$ cd ..
 $ catkin_make
 $ source devel/setup.bash
 ```
