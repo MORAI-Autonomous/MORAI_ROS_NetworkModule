@@ -1,0 +1,3 @@
+[submodule "code/catkin_ws/src/code/catkin_ws/src/MORAI-ROS_morai_msgs"]
+	path = code/catkin_ws/src/code/catkin_ws/src/MORAI-ROS_morai_msgs
+	url = https://github.com/MORAI-Autonomous/MORAI-ROS_morai_msgs
