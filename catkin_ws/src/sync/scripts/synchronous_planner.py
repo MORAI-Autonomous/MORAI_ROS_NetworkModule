@@ -23,7 +23,7 @@ class sync_planner():
         self.path_name=arg[1]
         sensor_capture_mode=bool(arg[2])
 
-        path_reader=pathReader('gen_ros') ## 경로 파일의 위치
+        path_reader=pathReader('sync') ## 경로 파일의 위치
 
         #publisher
         global_path_pub= rospy.Publisher('/global_path',Path, queue_size=1) ## global_path publisher
